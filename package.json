@@ -53,5 +53,12 @@
     "nodemon": "^2.0.7",
     "snyk": "^1.244.0"
   },
-  "license": "Apache-2.0"
+  "license": "Apache-2.0",
+  "licenses": [
+    {
+      "license": {
+        "id": "GPL-3.0-only"
+      }
+    }
+  ]
 }
