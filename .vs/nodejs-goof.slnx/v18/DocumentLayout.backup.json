@@ -3,6 +3,10 @@
   "WorkspaceRootPath": "C:\\Users\\renuc\\nodejs-goof\\",
   "Documents": [
     {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Users\\renuc\\nodejs-goof\\package.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}",
+      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:package.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}"
+    },
+    {
       "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Users\\renuc\\nodejs-goof\\.github\\workflows\\dependency-track.yml||{06C066C6-04A2-4E5D-8202-439FD4234EF1}",
       "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:.github\\workflows\\dependency-track.yml||{06C066C6-04A2-4E5D-8202-439FD4234EF1}"
     }
@@ -19,18 +23,32 @@
             {
               "$type": "Document",
               "DocumentIndex": 0,
+              "Title": "package.json",
+              "DocumentMoniker": "C:\\Users\\renuc\\nodejs-goof\\package.json",
+              "RelativeDocumentMoniker": "package.json",
+              "ToolTip": "C:\\Users\\renuc\\nodejs-goof\\package.json",
+              "RelativeToolTip": "package.json",
+              "ViewState": "AgIAADAAAAAAAAAAAAAAADoAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001642|",
+              "WhenOpened": "2026-07-28T17:59:33.185Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{3ae79031-e1bc-11d0-8f78-00a0c9110057}"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
               "Title": "dependency-track.yml",
               "DocumentMoniker": "C:\\Users\\renuc\\nodejs-goof\\.github\\workflows\\dependency-track.yml",
               "RelativeDocumentMoniker": ".github\\workflows\\dependency-track.yml",
               "ToolTip": "C:\\Users\\renuc\\nodejs-goof\\.github\\workflows\\dependency-track.yml",
               "RelativeToolTip": ".github\\workflows\\dependency-track.yml",
-              "ViewState": "AgIAAAwAAAAAAAAAAAAAABAAAAAjAAAAAAAAAA==",
+              "ViewState": "AgIAADkAAAAAAAAAAAAAABAAAAAjAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003775|",
-              "WhenOpened": "2026-07-28T13:01:24.216Z"
-            },
-            {
-              "$type": "Bookmark",
-              "Name": "ST:0:0:{3ae79031-e1bc-11d0-8f78-00a0c9110057}"
+              "WhenOpened": "2026-07-28T13:01:24.216Z",
+              "EditorCaption": ""
             }
           ]
         }

@@ -62,9 +62,7 @@ jobs:
 
           Write-Host "License policy passed."
 
-      - name: Generate SBOM
-        run: cyclonedx-npm --output-file bom.json
-        
+             
       - name: Verify SBOM
         run: |
           dir
