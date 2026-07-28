@@ -24,6 +24,41 @@ jobs:
       - name: Install CycloneDX Generator
         run: npm install -g @cyclonedx/cyclonedx-npm
 
+      - name: Check Copyleft Licenses
+        run: |
+
+          $blocked = @(
+            "GPL-2.0",
+            "GPL-2.0-only",
+            "GPL-3.0",
+            "GPL-3.0-only",
+            "AGPL-3.0-only",
+            "LGPL-3.0-only"
+          )
+
+          $bom = Get-Content bom.json | ConvertFrom-Json
+
+          foreach($c in $bom.components){
+
+              foreach($l in $c.licenses){
+
+                  $id = $l.license.id
+
+                  if($blocked -contains $id){
+
+                      Write-Host "Component: $($c.name)"
+                      Write-Host "License: $id"
+
+                      exit 1
+
+                  }
+
+              }
+
+          }
+
+          Write-Host "License policy passed."
+
       - name: Generate SBOM
         run: cyclonedx-npm --output-file bom.json
         
