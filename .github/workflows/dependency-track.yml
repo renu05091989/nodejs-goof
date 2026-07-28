@@ -24,6 +24,9 @@ jobs:
       - name: Install CycloneDX Generator
         run: npm install -g @cyclonedx/cyclonedx-npm
 
+      - name: Generate SBOM
+        run: cyclonedx-npm --output-file bom.json
+
       - name: Check Copyleft Licenses
         run: |
 
