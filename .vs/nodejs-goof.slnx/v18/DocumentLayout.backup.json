@@ -28,14 +28,10 @@
               "RelativeDocumentMoniker": "package.json",
               "ToolTip": "C:\\Users\\renuc\\nodejs-goof\\package.json",
               "RelativeToolTip": "package.json",
-              "ViewState": "AgIAACQAAAAAAAAAAAAAAD8AAAAAAAAAAAAAAA==",
+              "ViewState": "AgIAAC4AAAAAAAAAAAAUwDcAAAAaAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001642|",
               "WhenOpened": "2026-07-28T15:30:08.36Z",
               "EditorCaption": ""
-            },
-            {
-              "$type": "Bookmark",
-              "Name": "ST:0:0:{3ae79031-e1bc-11d0-8f78-00a0c9110057}"
             },
             {
               "$type": "Document",
@@ -45,10 +41,14 @@
               "RelativeDocumentMoniker": ".github\\workflows\\dependency-track.yml",
               "ToolTip": "C:\\Users\\renuc\\nodejs-goof\\.github\\workflows\\dependency-track.yml",
               "RelativeToolTip": ".github\\workflows\\dependency-track.yml",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "ViewState": "AgIAAAwAAAAAAAAAAAAAABAAAAAjAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003775|",
               "WhenOpened": "2026-07-28T13:01:24.216Z",
               "EditorCaption": ""
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{3ae79031-e1bc-11d0-8f78-00a0c9110057}"
             }
           ]
         }
