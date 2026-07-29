@@ -28,7 +28,7 @@
               "RelativeDocumentMoniker": "package.json",
               "ToolTip": "C:\\Users\\renuc\\nodejs-goof\\package.json",
               "RelativeToolTip": "package.json",
-              "ViewState": "AgIAAAgAAAAAAAAAAAAQwA0AAABCAAAAAAAAAA==",
+              "ViewState": "AgIAAA4AAAAAAAAAAAAQwBIAAAAXAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001642|",
               "WhenOpened": "2026-07-28T17:59:33.185Z",
               "EditorCaption": ""
@@ -43,8 +43,7 @@
               "RelativeToolTip": ".github\\workflows\\dependency-track.yml",
               "ViewState": "AgIAADkAAAAAAAAAAAAAAEgAAAAXAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003775|",
-              "WhenOpened": "2026-07-28T13:01:24.216Z",
-              "EditorCaption": ""
+              "WhenOpened": "2026-07-28T13:01:24.216Z"
             },
             {
               "$type": "Bookmark",
