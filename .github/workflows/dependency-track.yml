@@ -30,7 +30,7 @@ jobs:
       - name: Check Copyleft Licenses
         run: |
 
-          $blocked = @(
+          $checkCopyleftLicense = @(
             "GPL-2.0",
             "GPL-2.0-only",
             "GPL-3.0",
@@ -47,7 +47,7 @@ jobs:
 
                   $id = $l.license.id
 
-                  if($blocked -contains $id){
+                  if($checkCopyleftLicense -contains $id){
 
                       Write-Host "Component: $($c.name)"
                       Write-Host "License: $id"
