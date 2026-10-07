@@ -35,8 +35,7 @@ jobs:
             "GPL-2.0-only",
             "GPL-3.0",
             "GPL-3.0-only",
-            "AGPL-3.0-only",
-            "LGPL-3.0-only"
+            "AGPL-3.0-only"
           )
 
           $bom = Get-Content bom.json | ConvertFrom-Json
