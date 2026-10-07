@@ -74,6 +74,8 @@ jobs:
          $response = curl.exe `
              -X POST "${{ secrets.DTRACK_URL }}/api/v1/bom" `
             -H "X-Api-Key: ${{ secrets.DTRACK_API_KEY }}" `
-            -F "project=${{ secrets.DTRACK_PROJECT_UUID }}" `
+            -F "autoCreate=true" `
+            -F "projectName=SampleProject" `
+            -F "projectVersion=1.0.0" `
             -F "bom=@bom.json"
           Write-Host $response
